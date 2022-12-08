@@ -37,3 +37,35 @@
     height: 2rem;
 
 }
+.i-icons{
+    display: flex;
+    gap: 0;
+}
+.i-icons *{
+    transform: scale(0.5);
+}
+.i-icons *:hover{
+    cursor: pointer;
+}
+.i-right {
+    position: relative;
+   flex: 1;
+}
+.i-right *{
+    position:absolute;
+    z-index: 1; 
+}
+.i-right :nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top:-9%;
+}
+.i-right :nth-child(2){
+    transform: scale(0.67 );
+    left:-3rem;
+    top:-4.6rem
+}
+.i-right :nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+}
